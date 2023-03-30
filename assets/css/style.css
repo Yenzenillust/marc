@@ -636,6 +636,23 @@ footer h3{
         height: 80vh
     }
 
+
+@media screen and (max-width: 385px) {
+
+    .banner::after {
+        display: none;
+    }
+
+    section button.btn {
+        width: 300px;
+    }
+
+    .ju-txt-bttn {
+        top:280px;
+    }
+    
+    
+}
     
 
 }
