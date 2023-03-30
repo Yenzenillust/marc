@@ -190,7 +190,7 @@ section.rates {
     color: var(--primary-color);
     margin-bottom: 30px;
 
-    transition:  ease-in-out .2s;
+    transition:  ease-in-out .3s;
 }
 
 .rbox:hover {
