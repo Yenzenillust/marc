@@ -140,6 +140,11 @@ section.wcwu {
     padding: 10%;
 }
 
+.item img:hover {
+    transform: scale(1.1);
+    transition: ease-in-out .3s;
+}
+
 .feat .item img{
     max-width: 100%;
 }
@@ -184,6 +189,17 @@ section.rates {
     border-radius: 20px;
     color: var(--primary-color);
     margin-bottom: 30px;
+
+    transition:  ease-in-out .2s;
+}
+
+.rbox:hover {
+    box-shadow: 12px 12px 2px 1px rgb(120, 91, 17);
+    background-color: var(--primary-color);
+
+    color: #000;
+
+
 }
 
 .fs {
